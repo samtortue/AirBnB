@@ -6,7 +6,7 @@
 body {
   /*border: 3px solid blue;*/
   font-family: 'Muli', sans-serif;
-  background-color: RGB(233, 235, 232);
+  background-color: rgb(233, 235, 232);
 }
 
  form{
@@ -43,7 +43,7 @@ img {
 }
 .box {
   background-color: white;
-  color: RGB(186, 162, 154);
+  color: grey;
   padding-left: 30px;
   height: 450px;
   text-align: left;
@@ -57,17 +57,20 @@ img {
   color: RBG(174, 125, 104);
 }
 .butt {
-  width: 350px;
+  width: 300px;
   height: 53px;
   padding-top: 25px;
-  padding-right: 30px;
-  margin-right: 220px;
+  padding-right: 0, auto;
+  margin-right: 250px;
   text-align: center;
-  background: #FF5A5F;
+  background-color: rgb(13, 103, 117);
   margin-left: auto;
   font-size: 20px;
 }
+.butt:hover {
+  background-color: rgba(13, 103, 117, 0.6);
 
+}
 #pic {
   float: left;
   padding-right: 30px;
@@ -75,8 +78,7 @@ img {
 }
 
 #description {
-  text-align: center;
-  padding-right: 190px;
+  text-align: justify;
 
   /*border: 2px solid green;*/
 }
@@ -196,4 +198,11 @@ font-size: 15px;
 padding-top: 10px;
 background-color: white;
 font-size: 15px;
+}
+
+#babyBox2 {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  padding-top: 40px;
 }
